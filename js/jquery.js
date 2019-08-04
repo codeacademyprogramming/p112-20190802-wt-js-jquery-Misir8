@@ -1,102 +1,106 @@
-$(document).ready(function(){
-    /* $('body').prepend(` <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a href="" class="navbar-brand">Start Bootstrap</a>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="" class="nav-link text-light">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-            </ul>.
-        </div>
-    </nav>
-</header>
-<main>
-    <section>
-        <div class="container mt-4 pt-5">
-            <div class="row">
-                <div class="col-12">
-                    <div class="jumbotron">
-                        <h1 class="display-3">A Warm Welcome!</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam,
-                            eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam
-                            nobis illo aspernatur vitae fugiat numquam repellat.</p>
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Call To Action!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="card h-100  text-center">
-                        <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
-                                necessitatibus neque.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#!" class="btn btn-primary">Find Out More!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card h-100 text-center">
-                        <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#!" class="btn btn-primary">Find Out More!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card h-100  text-center">
-                        <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
-                                necessitatibus neque.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#!" class="btn btn-primary">Find Out More!</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="card h-100  text-center">
-                        <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <p class="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto..
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a href="#!" class="btn btn-primary">Find Out More!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-<footer class="py-5 bg-dark text-light mt-4">
-    <div class="container"><p class="text-center">Copyright &copy Your Website 2019</p></div>
-</footer>`) */
-// header-nav
+$(document).ready(function () {
+//    /* $('body').prepend(`  <header>
+//     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+//         <div class="container">
+//             <a href="" class="navbar-brand">Start Bootstrap</a>
+//             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+//                   <span class="navbar-toggler-icon"></span>
+//                 </button>
+//                 <div class="collapse navbar-collapse">
+//             <ul class="navbar-nav ml-auto">
+//                 <li class="nav-item"><a href="" class="nav-link text-light">Home</a></li>
+//                 <li class="nav-item"><a href="" class="nav-link">About</a></li>
+//                 <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+//                 <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+//             </ul>.
+//         </div>
+//     </nav>
+// </header>
+// <main>
+//     <section>
+//         <div class="container mt-4 pt-5">
+//             <div class="row">
+//                 <div class="col-12">
+//                     <div class="jumbotron">
+//                         <h1 class="display-3">A Warm Welcome!</h1>
+//                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam,
+//                             eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam
+//                             nobis illo aspernatur vitae fugiat numquam repellat.</p>
+//                         <a class="btn btn-primary btn-lg" href="#" role="button">Call To Action!</a>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     </section>
+//     <section>
+//         <div class="container">
+//             <div class="row">
+//                 <div class="col-3">
+//                     <div class="card h-100  text-center">
+//                         <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
+//                         <div class="card-body">
+//                             <h4 class="card-title">Card title</h4>
+//                             <p class="card-text">
+//                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+//                                 necessitatibus neque.
+//                             </p>
+//                         </div>
+//                         <div class="card-footer">
+//                             <a href="#!" class="btn btn-primary">Find Out More!</a>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div class="col-3">
+//                     <div class="card h-100 text-center">
+//                         <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
+//                         <div class="card-body">
+//                             <h4 class="card-title">Card title</h4>
+//                             <p class="card-text">
+//                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.
+//                             </p>
+//                         </div>
+//                         <div class="card-footer">
+//                             <a href="#!" class="btn btn-primary">Find Out More!</a>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div class="col-3">
+//                     <div class="card h-100  text-center">
+//                         <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
+//                         <div class="card-body">
+//                             <h4 class="card-title">Card title</h4>
+//                             <p class="card-text">
+//                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+//                                 necessitatibus neque.
+//                             </p>
+//                         </div>
+//                         <div class="card-footer">
+//                             <a href="#!" class="btn btn-primary">Find Out More!</a>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div class="col-3">
+//                     <div class="card h-100  text-center">
+//                         <img class="card-img-top" src="http://placehold.it/500x325" alt="Card image cap">
+//                         <div class="card-body">
+//                             <h4 class="card-title">Card title</h4>
+//                             <p class="card-text">
+//                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto..
+//                             </p>
+//                         </div>
+//                         <div class="card-footer">
+//                             <a href="#!" class="btn btn-primary">Find Out More!</a>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     </section>
+// </main>
+// <footer class="py-5 bg-dark text-light mt-4">
+//     <div class="container"><p class="text-center">Copyright &copy Your Website 2019</p></div>
+// </footer>`)*/
+// // header-nav
 $('body').prepend('<header></header>');
 $('header').append('<nav></nav>')
 $('nav').addClass('navbar navbar-expand-lg navbar-dark bg-dark fixed-top');
@@ -104,8 +108,14 @@ const divCNav = $('<div>').addClass('container');
 $('nav').append(divCNav);
 const brand = $('<a>').addClass('navbar-brand').attr('href', '#').text('Start Bootstrap');
 $(divCNav).append(brand);
+const navButton = $('<button>').addClass('navbar-toggler').attr('type', 'button').attr('data-toggle', 'collapse').attr('data-target', '#navbarTogglerDemo01').attr('aria-controls', 'navbarTogglerDemo01').attr('aria-expanded', 'false').attr('aria-label', 'Toggle navigation');
+$(divCNav).append(navButton);
+const spanNav = $('<span>').addClass('navbar-toggler-icon');
+$(navButton).append(spanNav);
+const collapse = $('<div>').addClass('collapse navbar-collapse').attr('id','navbarTogglerDemo02');
+$(divCNav).append(collapse);
 const ul = $('<ul>').addClass('navbar-nav ml-auto');
-$(divCNav).append(ul);
+$(collapse).append(ul);
 const li1 = $('<li>').addClass('nav-item');
 $(ul).append(li1);
 const li2 = $('<li>').addClass('nav-item');
@@ -150,7 +160,7 @@ const ccontainer = $('<div>').addClass('container');
 $(sectionCard).append(ccontainer);
 const cardRow = $('<div>').addClass('row');
 $(ccontainer).append(cardRow);
-const cardCol = $('<div>').addClass('col-3');
+const cardCol = $('<div>').addClass('col-md-6 col-lg-3 ');
 $(cardRow).append(cardCol);
 const card = $('<div>').addClass('card h-100 text-center');
 $(cardCol).append(card);
@@ -169,7 +179,7 @@ $(cardFooter).append(cardFooterLink);
 
 
 // 
-const cardCol2 = $('<div>').addClass('col-3');
+const cardCol2 = $('<div>').addClass('col-md-6 col-lg-3');
 $(cardRow).append(cardCol2);
 const card2 = $('<div>').addClass('card h-100 text-center');
 $(cardCol2).append(card2);
@@ -187,7 +197,7 @@ const cardFooterLink2 = $('<a>').addClass('btn btn-primary').attr('href', '#').t
 $(cardFooter2).append(cardFooterLink2);
 // 
 
-const cardCol3 = $('<div>').addClass('col-3');
+const cardCol3 = $('<div>').addClass('col-md-6 col-lg-3');
 $(cardRow).append(cardCol3);
 const card3 = $('<div>').addClass('card h-100 text-center');
 $(cardCol3).append(card3);
@@ -205,7 +215,7 @@ const cardFooterLink3 = $('<a>').addClass('btn btn-primary').attr('href', '#').t
 $(cardFooter3).append(cardFooterLink3);
 
 // 
-const cardCol4 = $('<div>').addClass('col-3');
+const cardCol4 = $('<div>').addClass('col-md-6 col-lg-3');
 $(cardRow).append(cardCol4);
 const card4 = $('<div>').addClass('card h-100 text-center');
 $(cardCol4).append(card4);
